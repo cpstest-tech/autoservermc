@@ -30,7 +30,7 @@ installer_jar=$(echo $Paper_SERVER | rev | cut -d '/' -f 1 | rev)
 java -jar $installer_jar --installServer
 # mv $exec_jar $EXEC_SERVER_NAME
 # rm $installer_jar
-echo "cd AutoHostingMobile && java -Xmx1G -jar paper-1.20.4-405.jar nogui" > ../start.sh
+echo "cd AutoHostingMobile && java -Xmx1G -jar paper-1.21.3-82.jar nogui" > ../start.sh
 chmod +x ../start.sh
 
 # NGROK
