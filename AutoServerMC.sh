@@ -19,7 +19,7 @@ EXEC_SERVER_NAME="minecraft_server.jar"
 
 ##### INSTALLATIONS XIMI #####
 
-pkg install openjdk-17 zip unzip -y
+pkg install openjdk-22 zip unzip -y
 echo "Loading Minecraft Server"
 mkdir AutoHostingMobile
 cd AutoHostingMobile
